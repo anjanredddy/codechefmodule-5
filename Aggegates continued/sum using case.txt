@@ -1,0 +1,3 @@
+select department,sum(case when age>20 then fee else null end) as sum_senior_Fee 
+from student
+group by department;

@@ -1,0 +1,2 @@
+select c.Customer_Name,i.Item_Name from customer c
+cross join item i; 

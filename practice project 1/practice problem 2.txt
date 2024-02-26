@@ -1,0 +1,3 @@
+select * from customer c 
+left join purchase p 
+on c.Customer_id = p.Customer_id;

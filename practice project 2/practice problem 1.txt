@@ -1,0 +1,6 @@
+SELECT emp_name 
+FROM employee
+WHERE emp_id IN ( 
+SELECT emp_id 
+FROM salary
+WHERE salary_amt >150000);

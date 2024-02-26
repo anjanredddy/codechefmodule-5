@@ -1,0 +1,4 @@
+select f.f_name,f.f_type from food f 
+join ratings r 
+on f.f_id = r.f_id
+where f_rating<3;

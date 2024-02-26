@@ -1,0 +1,5 @@
+SELECT emp_name
+FROM employee 
+WHERE emp_age < (SELECT AVG(emp_age)
+FROM employee
+WHERE emp_dept= 'Sales');

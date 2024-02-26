@@ -1,0 +1,2 @@
+select s.st_name as St_Name, c.Course_Name as Course_Name from student s 
+cross join course c;

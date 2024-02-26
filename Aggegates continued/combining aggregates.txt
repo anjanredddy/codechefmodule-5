@@ -1,0 +1,2 @@
+select department,(100*(sum(case when age>20 then fee else 0 end))/sum(fee)) as Senior_Fee_Percentage from student
+group by 1;

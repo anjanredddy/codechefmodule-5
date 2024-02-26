@@ -1,0 +1,2 @@
+select * from Customer
+limit 3;

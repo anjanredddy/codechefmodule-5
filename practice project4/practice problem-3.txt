@@ -1,0 +1,3 @@
+select cuisine,sum(case when category='Non veg' then price else 0 end) as Non_Veg_Price
+from orders
+group by cuisine;

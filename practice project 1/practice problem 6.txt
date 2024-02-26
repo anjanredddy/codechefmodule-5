@@ -1,0 +1,5 @@
+select * from customer c 
+join Purchase p 
+on c.customer_id = p.customer_id
+order by p.purchase_amt desc
+limit 3;
